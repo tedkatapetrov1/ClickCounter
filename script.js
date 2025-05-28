@@ -9,7 +9,6 @@ const resetBtn = document.getElementById('resetBtn')
 clickBtn.addEventListener('click', () => {
     count++;
     countE1.textContent = count;
-    localStorage.setItem('clickCount', count);
 });
 
 resetBtn.addEventListener('click', () => {
