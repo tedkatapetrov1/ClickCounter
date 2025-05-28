@@ -10,3 +10,8 @@ clickBtn.addEventListener('click', () => {
     count++;
     countE1.textContent = count;
 });
+
+resetBtn.addEventListener('click', () => {
+    count = 0
+    countE1.textContent = count;
+})
